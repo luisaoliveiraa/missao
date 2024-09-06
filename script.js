@@ -6,43 +6,43 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual é o seu tipo de jogo preferido?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Jogos de ação e aventura.",
+                afirmacao: "Se você prefere jogos de ação e aventura, você gosta de experiências dinâmicas e intensas."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Jogos de estratégia e RPG.",
+                afirmacao: "Se você prefere jogos de estratégia e RPG, você valoriza a profundidade e a complexidade do jogo."
             }
 
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Você prefere jogar sozinho ou em equipe?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Jogar sozinho.",
+                afirmacao: "Se você prefere jogar sozinho, você aprecia a imersão e o controle total sobre a experiência de jogo."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Jogar em equipe.",
+                afirmacao: "Se você prefere jogar em equipe, você valoriza a colaboração e a interação social durante o jogo."
             }
 
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Você gosta mais de gráficos realistas ou estilizados?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao: "afirmacao5"
+                texto: "Jogos realistas.",
+                afirmacao: "Se você gosta de gráficos realistas, você prefere uma representação visual detalhada e autêntica."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao: "afirmacao6"
+                texto: "Jogos estilizados.",
+                afirmacao: "Se você gosta de gráficos estilizados, você aprecia uma estética única e artística no jogo."
             }
         ]
     }
